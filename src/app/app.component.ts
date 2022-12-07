@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { ContactsService } from 'src/services/contacts.service';
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'credits';
+
+  // title = 'credits';
+
+  // value(id:number)
+  // {
+  //   alert('we are working on events:' + id);
+  // }
+  
+  // username='';
+
 }
