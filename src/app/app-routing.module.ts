@@ -9,7 +9,6 @@ import { FailureComponent } from './failure/failure.component';
 import { SuccessComponent } from './success/success.component';
 import { TodoComponent } from './todo/todo.component';
 import { LoginComponent } from './login/login.component';
-import { TaskComponent } from './task/task.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { ProductComponent } from './product/product.component';
 import { ProductviewComponent } from './productview/productview.component';
@@ -24,7 +23,7 @@ const routes: Routes = [
   {path:"productedit",component:ProducteditComponent},
   {path:"productview",component:ProductviewComponent},
   {path:'pagenotfound',component:PagenotfoundComponent},
-  {path:'task',component:TaskComponent},
+  // {path:'task',component:TaskComponent},
   {path:'login',component:LoginComponent},
   {path:'contacts',component:ContactsComponent},
   {path:'chandru',component:ChandruComponent},
