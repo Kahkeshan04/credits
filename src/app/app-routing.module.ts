@@ -13,17 +13,15 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { ProductComponent } from './product/product.component';
 import { ProductviewComponent } from './productview/productview.component';
 import { ProducteditComponent } from './productedit/productedit.component';
-// import { HttpClientModule } from '@angular/common/http';
 
 const routes: Routes = [ 
-  // {path:'',redirectTo:'corporate',pathMatch:"full"},
+
   
   {path:'authorize',component:AuthorizeComponent},
   {path:'product',component:ProductComponent},
   {path:"productedit",component:ProducteditComponent},
   {path:"productview",component:ProductviewComponent},
   {path:'pagenotfound',component:PagenotfoundComponent},
-  // {path:'task',component:TaskComponent},
   {path:'login',component:LoginComponent},
   {path:'contacts',component:ContactsComponent},
   {path:'chandru',component:ChandruComponent},
