@@ -10,7 +10,6 @@ import { TodoComponent } from './todo/todo.component';
 import { SuccessComponent } from './success/success.component';
 import { FailureComponent } from './failure/failure.component';
 import { LoginComponent } from './login/login.component';
-import { TaskComponent } from './task/task.component'
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { Routes,RouterModule } from '@angular/router';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
@@ -29,7 +28,6 @@ import { HttpClientModule } from '@angular/common/http';
     SuccessComponent,
     FailureComponent,
     LoginComponent,
-    TaskComponent,
     PagenotfoundComponent,
     AuthorizeComponent,
     ProductComponent,
