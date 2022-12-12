@@ -17,6 +17,7 @@ import { AuthorizeComponent } from './authorize/authorize.component';
 import { ProductComponent } from './product/product.component';
 import { ContactsService } from 'src/services/contacts.service';
 import { HttpClientModule } from '@angular/common/http';
+import { ExceedComponent } from './exceed/exceed.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { HttpClientModule } from '@angular/common/http';
     PagenotfoundComponent,
     AuthorizeComponent,
     ProductComponent,
+    ExceedComponent,
     ],
 
   imports: [
