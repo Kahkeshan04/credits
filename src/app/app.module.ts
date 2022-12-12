@@ -18,6 +18,7 @@ import { ProductComponent } from './product/product.component';
 import { ContactsService } from 'src/services/contacts.service';
 import { HttpClientModule } from '@angular/common/http';
 import { DummyComponent } from './dummy/dummy.component';
+import { ExceedComponent } from './exceed/exceed.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { DummyComponent } from './dummy/dummy.component';
     AuthorizeComponent,
     ProductComponent,
     DummyComponent,
+    ExceedComponent,
     ],
 
   imports: [
